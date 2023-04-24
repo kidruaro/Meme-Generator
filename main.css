@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(86, 120, 135);
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 128px;
+}
+
+.container{
+
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+}
+
+ul {
+    margin-bottom: 10px 0;
+}
+
+#meme{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 0%;
+}
+
+#TOP{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 50px;
+}
+
+#BOT{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 0%;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 50px;
+    line-height: 750px;
+}
+
+#remove {
+    position: relative;
+    left: 150%;
+    bottom: 50%;
+}
+
+label {
+    color:rgb(0, 0, 0);
+    margin-left: 15px;
+}
